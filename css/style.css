@@ -1,0 +1,288 @@
+/* Copyright 2015 - Hampus Reis - iHampus.se */
+
+/* Allt möjligt */
+#wrapper {
+
+}
+
+body {
+    background-image: url("../img/bg.png");
+    background-repeat: repeat;
+
+}
+
+/* Bildspel */
+.bildspel {
+	height: 580px;
+}
+
+.header {
+	background-color: rgba(64,184,175, 0.5);
+	height: 250px;
+}
+
+.title {
+
+}
+/* end of first */
+
+
+/* Fix för bilderbox så den ändrar höjd */
+#fix .slider-size {
+    height: 580px;
+    width: 100%;
+}
+
+
+/* About Us */
+.about {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.about h1 {
+	font-size: 52px;
+	font-family: 'Dosis', sans-serif;
+}
+
+.about h2 {
+	font-size: 32px;
+}
+
+.about p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+.about ul {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	display: list-item;
+	text-align: left;
+}
+
+/* Text till about */
+.text {
+	padding-top: 40px;
+	margin: 0 auto;
+	width: 75%;
+}
+/* end of About Us */
+
+/* Faq Block */
+.faqBlock {
+	padding-top: 50px;
+	margin: 0 auto;
+	width: 75%;
+}
+
+
+/* Affix (makes the menu shift from bottom to top) */
+.affix {
+  top:0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+
+.affix ~ .container-fluid {
+ position: relative;
+ top: 500px;
+}
+/* end of Affix */
+
+
+/* Services */
+.services {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.services p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+.services h1 {
+	font-size: 52px;
+	font-family: 'Dosis', sans-serif;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.services h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	padding-left: 1%;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.services li {
+	font-family: 'Dosis', sans-serif;
+}
+
+.servicesBox {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.servicesBox img {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.consulting {
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.consulting p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+/* end of Services */
+
+
+.fixarTabs {
+	margin: 0 auto;
+	text-align: center;
+	width: 75%;
+	padding-top: 30px;
+}
+
+
+/* Tabs */
+.tabs li {
+	list-style:none;
+	display:inline;
+	font-family: 'Dosis', sans-serif;
+	font-size: 24px;
+}
+
+.tabs a {
+	overflow: auto;
+	padding:5px 80px;
+	display:inline-block;
+	background:#ffeca3;
+	color:#7f7552;
+	text-decoration:none;
+}
+
+.tabs a.active {
+	background:#cbae47;
+	color:#fff;
+}
+/* end of Tabs */
+
+
+
+/* Navbar fix */
+.navbar{
+	margin-bottom: 0;
+	z-index:1;
+}
+.navbar-brand{
+	height:auto;
+	padding:15px 15px;
+	font-size:25px!important;
+	font-weight:normal;
+	font-weight:600;
+}
+.navbar-brand img{
+	max-height: 100px;
+	margin: 0 5px 0 0;
+	display:inline;
+}
+.navbar-brand{
+	padding: 2px 20px; /* andra kolumnen för hur långt in logon skall vara */
+}
+.navbar .nav{
+	padding-top: 10px;
+	margin-right: -16px; /* -16px för "normal" inställning på meny texten */
+	float:right;
+	z-index:1;
+}
+.nav > li{
+	float:left;
+	margin-top:14px;
+	font-size:26px;
+}
+.navbar-nav .open .dropdown-menu > li > a{
+	text-align: inherit;
+}
+.nav > li a:hover, .nav > li a:focus{
+	background:transparent;
+}
+.navbar-toggle{
+	margin: 10px 10px 0 0;
+	border: 0px;
+}
+.navbar-toggle:hover{
+	background:transparent!important;
+}
+.navbar-toggle .icon-bar{
+	background-color: rgba(0,0,0,.5);
+	width: 26px;
+}
+/* end of Navbar fix */
+
+/* Contact Us */
+.contact {
+	width: 75%;
+	padding-top: 100px;
+	margin: 0 auto;
+}
+
+.contact h1 {
+	font-size: 52px;
+	font-family: 'Dosis', sans-serif;
+	text-align: center;
+}
+
+.contact h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	text-align: center;
+}
+
+.contact h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+/* end of contact us */
+
+
+/* Footer */
+.footer {
+
+}
+/* end of Footer */
+
+
+/* Responsive font size for smaller sizes */
+@media all and (max-width: 766px) {
+.nav > li{
+	float:left;
+	margin-top:4px;
+	font-size:16px;
+}
+
+@media all and (max-width: 800px) {
+.img {
+	width: 85%;
+}
+
+@media all and (max-width: 766px) {
+.servicesBox {
+	width: 90%;
+}
+/* end of responsive */
+
